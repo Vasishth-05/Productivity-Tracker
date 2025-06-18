@@ -25,4 +25,4 @@ const tasks = mongoose.Schema({
     
 })
 
-module.exports = mongoose.model('Tasks',task);
+module.exports = mongoose.model('Tasks',tasks);
