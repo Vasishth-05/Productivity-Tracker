@@ -37,8 +37,7 @@ const getTaskById = asyncHandler ( async (req,res) => {
 //@acces PUBLIC
 const updateTask = asyncHandler ( async (req,res) => {
     res.json({
-        message : 'this is a update request',
-
+        message : 'this is a update request'
     })
 })
 
