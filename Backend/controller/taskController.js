@@ -16,6 +16,7 @@ const createTasks = asyncHandler ( async (req,res) => {
 //@route GET /api/task
 //@acces PUBLIC
 const getAllTasks = asyncHandler ( async (req,res) => {
+    "this is not a simple task which"
     res.json({
         message : 'this is a get request'
     })
@@ -28,6 +29,7 @@ const getTaskById = asyncHandler ( async (req,res) => {
     res.json({
         message : 'this is a GETALL request'
     })
+    
 })
 
 //@desc Update tasks
@@ -35,7 +37,8 @@ const getTaskById = asyncHandler ( async (req,res) => {
 //@acces PUBLIC
 const updateTask = asyncHandler ( async (req,res) => {
     res.json({
-        message : 'this is a update request'
+        message : 'this is a update request',
+
     })
 })
 
